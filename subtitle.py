@@ -1,7 +1,7 @@
 import assemblyai as aai
 
 # Set the API key
-aai.settings.api_key = "997bbdff3caa4cce91daeff1bb8ae4b3"
+aai.settings.api_key = ""
 
 file_name = "example_files/Dialogue Between Two Friends Who Met After Long Time [TubeRipper.com].mp4"
 transcriber = aai.Transcriber(config=aai.TranscriptionConfig(speaker_labels=True))
